@@ -1,0 +1,22 @@
+using System;
+
+class TrianglePattern
+{
+    static void Main(string[] args)
+    {
+        int rows = 5; // Number of rows for the triangle pattern
+
+        // Loop through each row
+        for (int i = 0; i < rows; i++)
+        {
+            // Loop to print "*" in each row
+            for (int j = 0; j <= i; j++)
+            {
+                Console.Write("* ");
+            }
+
+            // Move to the next line after each row
+            Console.WriteLine();
+        }
+    }
+}
